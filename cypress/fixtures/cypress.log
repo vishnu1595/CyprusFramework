@@ -1,0 +1,354 @@
+cypress:server:events got request for event: close:browser undefined +806ms
+  cypress:server:events sending ipc data { type: 'close:browser',
+  data: { id: 0.13151804745927764, data: undefined } } +1ms
+  cypress:server:events got request for event: launch:browser { browser: 'chrome', spec: 'cypress/integration/login_spec.js' } +16ms
+  cypress:server launching browser chrome spec cypress/integration/login_spec.js +1ms
+  cypress:server:project resetting project instance /Users/test-user/Documents/workspace/project/tests/cypress +0ms
+  cypress:server:cors Parsed URL { port: '3000', tld: 'localhost', domain: '' } +1ms
+  cypress:server:server Setting remoteOrigin http://localhost:3000 +0ms
+  cypress:server:server Setting remoteHostAndPort [object Object] +0ms
+  cypress:server:server Setting remoteDocDomain localhost +0ms
+  cypress:server:server Getting remote state: { props: { port: '3000', tld: 'localhost', domain: '' }, origin: 'http://localhost:3000', strategy: 'http', visiting: undefined, domainName: 'localhost', fileServer: null } +0ms
+  cypress:server launching project in browser chrome +2ms
+  cypress:server:browsers open browser chrome +12ms
+  cypress:server:plugins execute plugin event 'before:browser:launch' with args: [object Object] [ '--test-type',
+  '--ignore-certificate-errors',
+  '--start-maximized',
+  '--silent-debugger-extension-api',
+  '--no-default-browser-check',
+  '--no-first-run',
+  '--noerrdialogs',
+  '--enable-fixed-layout',
+  '--disable-popup-blocking',
+  '--disable-password-generation',
+  '--disable-save-password-bubble',
+  '--disable-single-click-autofill',
+  '--disable-prompt-on-repos',
+  '--disable-background-timer-throttling',
+  '--disable-renderer-backgrounding',
+  '--disable-renderer-throttling',
+  '--disable-restore-session-state',
+  '--disable-translate',
+  '--disable-new-profile-management',
+  '--disable-new-avatar-menu',
+  '--allow-insecure-localhost',
+  '--reduce-security-for-testing',
+  '--enable-automation',
+  '--disable-infobars',
+  '--disable-blink-features=BlockCredentialedSubresources',
+  '--metrics-recording-only',
+  '--disable-prompt-on-repost',
+  '--disable-hang-monitor',
+  '--disable-sync',
+  '--disable-background-networking',
+  '--disable-web-resources',
+  '--safebrowsing-disable-auto-update',
+  '--safebrowsing-disable-download-protection',
+  '--disable-client-side-phishing-detection',
+  '--disable-component-update',
+  '--disable-default-apps',
+  '--proxy-server=http://localhost:52038' ] +0ms
+  cypress:server:plugins call event before:browser:launch for invocation id inv2 +1ms
+  cypress:server:plugins:child execute plugin with id inv2 +11s
+  cypress:server:plugins promise resolved for id 'inv2' with value [ '--test-type',
+  '--ignore-certificate-errors',
+  '--start-maximized',
+  '--silent-debugger-extension-api',
+  '--no-default-browser-check',
+  '--no-first-run',
+  '--noerrdialogs',
+  '--enable-fixed-layout',
+  '--disable-popup-blocking',
+  '--disable-password-generation',
+  '--disable-save-password-bubble',
+  '--disable-single-click-autofill',
+  '--disable-prompt-on-repos',
+  '--disable-background-timer-throttling',
+  '--disable-renderer-backgrounding',
+  '--disable-renderer-throttling',
+  '--disable-restore-session-state',
+  '--disable-translate',
+  '--disable-new-profile-management',
+  '--disable-new-avatar-menu',
+  '--allow-insecure-localhost',
+  '--reduce-security-for-testing',
+  '--enable-automation',
+  '--disable-infobars',
+  '--disable-blink-features=BlockCredentialedSubresources',
+  '--metrics-recording-only',
+  '--disable-prompt-on-repost',
+  '--disable-hang-monitor',
+  '--disable-sync',
+  '--disable-background-networking',
+  '--disable-web-resources',
+  '--safebrowsing-disable-auto-update',
+  '--safebrowsing-disable-download-protection',
+  '--disable-client-side-phishing-detection',
+  '--disable-component-update',
+  '--disable-default-apps',
+  '--proxy-server=http://localhost:52038',
+  '--disable-web-security',
+  '--user-data-dir' ] +3ms
+  cypress:server:browsers got user args for 'before:browser:launch' [ '--test-type',
+  '--ignore-certificate-errors',
+  '--start-maximized',
+  '--silent-debugger-extension-api',
+  '--no-default-browser-check',
+  '--no-first-run',
+  '--noerrdialogs',
+  '--enable-fixed-layout',
+  '--disable-popup-blocking',
+  '--disable-password-generation',
+  '--disable-save-password-bubble',
+  '--disable-single-click-autofill',
+  '--disable-prompt-on-repos',
+  '--disable-background-timer-throttling',
+  '--disable-renderer-backgrounding',
+  '--disable-renderer-throttling',
+  '--disable-restore-session-state',
+  '--disable-translate',
+  '--disable-new-profile-management',
+  '--disable-new-avatar-menu',
+  '--allow-insecure-localhost',
+  '--reduce-security-for-testing',
+  '--enable-automation',
+  '--disable-infobars',
+  '--disable-blink-features=BlockCredentialedSubresources',
+  '--metrics-recording-only',
+  '--disable-prompt-on-repost',
+  '--disable-hang-monitor',
+  '--disable-sync',
+  '--disable-background-networking',
+  '--disable-web-resources',
+  '--safebrowsing-disable-auto-update',
+  '--safebrowsing-disable-download-protection',
+  '--disable-client-side-phishing-detection',
+  '--disable-component-update',
+  '--disable-default-apps',
+  '--proxy-server=http://localhost:52038',
+  '--disable-web-security',
+  '--user-data-dir' ] +1ms
+  cypress:server:appdata path: /Users/test-user/Library/Application Support/Cypress/cy/production/extensions/chrome +6ms
+  cypress:server:appdata path: /Users/test-user/Library/Application Support/Cypress/cy/production/extensions/chrome/background.js +0ms
+  cypress:server:browsers launch in chrome: http://localhost:3000/__/#/tests/integration/login_spec.js, --test-type,--ignore-certificate-errors,--start-maximized,--silent-debugger-extension-api,--no-default-browser-check,--no-first-run,--noerrdialogs,--enable-fixed-layout,--disable-popup-blocking,--disable-password-generation,--disable-save-password-bubble,--disable-single-click-autofill,--disable-prompt-on-repos,--disable-background-timer-throttling,--disable-renderer-backgrounding,--disable-renderer-throttling,--disable-restore-session-state,--disable-translate,--disable-new-profile-management,--disable-new-avatar-menu,--allow-insecure-localhost,--reduce-security-for-testing,--enable-automation,--disable-infobars,--disable-blink-features=BlockCredentialedSubresources,--metrics-recording-only,--disable-prompt-on-repost,--disable-hang-monitor,--disable-sync,--disable-background-networking,--disable-web-resources,--safebrowsing-disable-auto-update,--safebrowsing-disable-download-protection,--disable-client-side-phishing-detection,--disable-component-update,--disable-default-apps,--proxy-server=http://localhost:52038,--disable-web-security,--user-data-dir,--load-extension=/Users/test-user/Library/Application Support/Cypress/cy/production/extensions/chrome,/Users/test-user/Documents/workspace/project/tests/cypress/node_modules/cypress/dist/Cypress.app/Contents/Resources/app/packages/extension/theme,--user-data-dir=/Users/test-user/Library/Application Support/Cypress/cy/production/browsers/chrome +22ms
+  cypress:launcher checking one browser chrome +12s
+  cypress:launcher looking up chrome on darwin platform +0ms
+  cypress:launcher looking for app Contents/MacOS/Google Chrome id com.google.Chrome +0ms
+  cypress:launcher looking for bundle id com.google.Chrome using command: mdfind 'kMDItemCFBundleIdentifier=="com.google.Chrome"' | head -1 +0ms
+  cypress:launcher found com.google.Chrome at /Applications/Google Chrome.app +73ms
+  cypress:launcher reading property file "/Applications/Google Chrome.app/Contents/Info.plist" +0ms
+  cypress:launcher setting major version for {"name":"chrome","displayName":"Chrome","version":"64.0.3282.119","path":"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"} +38ms
+  cypress:launcher browser chrome version 64.0.3282.119 major version 64 +0ms
+  cypress:launcher checking one browser chromium +0ms
+  cypress:launcher looking up chromium on darwin platform +0ms
+  cypress:launcher looking for app Contents/MacOS/Chromium id org.chromium.Chromium +0ms
+  cypress:launcher looking for bundle id org.chromium.Chromium using command: mdfind 'kMDItemCFBundleIdentifier=="org.chromium.Chromium"' | head -1 +0ms
+  cypress:launcher found org.chromium.Chromium at  +57ms
+  cypress:launcher reading property file "Contents/Info.plist" +0ms
+  cypress:launcher could not read Info.plist for Contents/Info.plist +0ms
+  cypress:launcher looking for application /Applications/Chromium.app +0ms
+  cypress:launcher reading property file "/Applications/Chromium.app/Contents/Info.plist" +0ms
+  cypress:launcher could not read Info.plist for /Applications/Chromium.app/Contents/Info.plist +1ms
+  cypress:launcher could not detect chromium using traditional Mac methods +0ms
+  cypress:launcher trying linux search +0ms
+  cypress:launcher looking using command "chromium-browser --version" +0ms
+  cypress:launcher Could not detect browser Command failed: /bin/sh -c chromium-browser --version
+/bin/sh: chromium-browser: command not found
+ +10ms
+  cypress:launcher browser chromium not installed +0ms
+  cypress:launcher checking one browser canary +0ms
+  cypress:launcher looking up canary on darwin platform +1ms
+  cypress:launcher looking for app Contents/MacOS/Google Chrome Canary id com.google.Chrome.canary +0ms
+  cypress:launcher looking for bundle id com.google.Chrome.canary using command: mdfind 'kMDItemCFBundleIdentifier=="com.google.Chrome.canary"' | head -1 +0ms
+  cypress:launcher found com.google.Chrome.canary at  +57ms
+  cypress:launcher reading property file "Contents/Info.plist" +0ms
+  cypress:launcher could not read Info.plist for Contents/Info.plist +1ms
+  cypress:launcher looking for application /Applications/Google Chrome Canary.app +0ms
+  cypress:launcher reading property file "/Applications/Google Chrome Canary.app/Contents/Info.plist" +1ms
+  cypress:launcher could not read Info.plist for /Applications/Google Chrome Canary.app/Contents/Info.plist +2ms
+  cypress:launcher could not detect canary using traditional Mac methods +0ms
+  cypress:launcher trying linux search +0ms
+  cypress:launcher looking using command "google-chrome-canary --version" +0ms
+  cypress:launcher Could not detect browser Command failed: /bin/sh -c google-chrome-canary --version
+/bin/sh: google-chrome-canary: command not found
+ +11ms
+  cypress:launcher browser canary not installed +0ms
+  cypress:launcher launching browser chrome to open http://localhost:3000/__/#/tests/integration/login_spec.js +1ms
+  cypress:launcher spawning browser /Applications/Google Chrome.app/Contents/MacOS/Google Chrome with args http://localhost:3000/__/#/tests/integration/login_spec.js --test-type --ignore-certificate-errors --start-maximized --silent-debugger-extension-api --no-default-browser-check --no-first-run --noerrdialogs --enable-fixed-layout --disable-popup-blocking --disable-password-generation --disable-save-password-bubble --disable-single-click-autofill --disable-prompt-on-repos --disable-background-timer-throttling --disable-renderer-backgrounding --disable-renderer-throttling --disable-restore-session-state --disable-translate --disable-new-profile-management --disable-new-avatar-menu --allow-insecure-localhost --reduce-security-for-testing --enable-automation --disable-infobars --disable-blink-features=BlockCredentialedSubresources --metrics-recording-only --disable-prompt-on-repost --disable-hang-monitor --disable-sync --disable-background-networking --disable-web-resources --safebrowsing-disable-auto-update --safebrowsing-disable-download-protection --disable-client-side-phishing-detection --disable-component-update --disable-default-apps --proxy-server=http://localhost:52038 --disable-web-security --user-data-dir --load-extension=/Users/test-user/Library/Application Support/Cypress/cy/production/extensions/chrome,/Users/test-user/Documents/workspace/project/tests/cypress/node_modules/cypress/dist/Cypress.app/Contents/Resources/app/packages/extension/theme --user-data-dir=/Users/test-user/Library/Application Support/Cypress/cy/production/browsers/chrome +2ms
+  cypress:server:browsers browser opened +267ms
+  cypress:server:timers queuing timer id 5 after 1000 ms +0ms
+  cypress:server:timers child received timer id 5 +1s
+  cypress:server:timers child sending timer id 5 +1s
+  cypress:server:timers clearing timer id 5 from queue { '4': { args: [], ms: 2500, cb: [Function: cb] }, '5': { args: [], ms: 1000, cb: [Function] } } +1s
+  cypress:server:events sending ipc data { type: 'launch:browser',
+  data: { id: 0.06494853664695022, data: { browserOpened: true } } } +2ms
+  cypress:server:server Got CONNECT request from mtalk.google.com:5228 +344ms
+  cypress:https-proxy Writing socket connection headers for URL: mtalk.google.com:5228 +13s
+  cypress:server:timers child sending timer id 4 +377ms
+  cypress:server:cors Parsed URL { port: '5228', tld: 'com', domain: 'google' } +43ms
+  cypress:server:server HTTPS request does not match URL: https://mtalk.google.com:5228 with props: { port: '3000', tld: 'localhost', domain: '' } +1ms
+  cypress:server:server HTTPS request https://mtalk.google.com:5228 matches blacklist? undefined +1ms
+  cypress:https-proxy Making direct connection to mtalk.google.com:5228 +43ms
+  cypress:server:timers clearing timer id 4 from queue { '4': { args: [], ms: 2500, cb: [Function: cb] } } +16ms
+  cypress:server:timers queuing timer id 4 after 2500 ms +1ms
+  cypress:server:files looking for test files in the integration folder /Users/test-user/Documents/workspace/project/tests/cypress/cypress/integration +0ms
+  cypress:server:files specPattern for test files is undefined +1ms
+  cypress:server:timers child received timer id 4 +33ms
+  cypress:server:files found test file /Users/test-user/Documents/workspace/project/tests/cypress/cypress/integration/booking_spec.js +3ms
+  cypress:server:files found test file /Users/test-user/Documents/workspace/project/tests/cypress/cypress/integration/invoice_spec.js +0ms
+  cypress:server:files found test file /Users/test-user/Documents/workspace/project/tests/cypress/cypress/integration/login_spec.js +0ms
+  cypress:server:files found test file /Users/test-user/Documents/workspace/project/tests/cypress/cypress/integration/student_spec.js +0ms
+  cypress:server:files found 4 spec files +3ms
+  cypress:server:routes Serving Cypress front-end by requested URL: /__/ +374ms
+  cypress:server:server Getting remote state: { props: { port: '3000', tld: 'localhost', domain: '' }, origin: 'http://localhost:3000', strategy: 'http', visiting: undefined, domainName: 'localhost', fileServer: null } +1ms
+  cypress:server config version 1.4.1 platform darwin arch x64 +1ms
+GET /__/ 200 80.770 ms - -
+GET /__cypress/runner/cypress_runner.css 304 5.351 ms - -
+GET /__cypress/runner/cypress_runner.js 304 1.666 ms - -
+  cypress:server:server Got CONNECT request from localhost:3000 +764ms
+  cypress:https-proxy Writing socket connection headers for URL: localhost:3000 +1s
+  cypress:server:cors Parsed URL { port: '3000', tld: 'localhost', domain: '' } +1ms
+  cypress:server:server HTTPS request does match URL: https://localhost:3000 with props: { port: '3000', tld: 'localhost', domain: '' } +0ms
+  cypress:https-proxy Not making direct connection to localhost:3000 +1ms
+  cypress:https-proxy Making intercepted connection to 52038 +0ms
+  cypress:server:server Got UPGRADE request from /__socket.io/?EIO=3&transport=websocket +3ms
+  cypress:server:timers queuing timer id 6 after 85000 ms +10ms
+  cypress:server:timers child received timer id 6 +1s
+  cypress:server:socket socket connected +4ms
+  cypress:server:timers clearing timer id 6 from queue { '4': { args: [], ms: 2500, cb: [Function: cb] }, '6': { args: [], ms: 85000, cb: [Function] } } +34ms
+  cypress:server:timers queuing timer id 7 after 85000 ms +0ms
+  cypress:server:timers child received timer id 7 +38ms
+  cypress:server:timers clearing timer id 7 from queue { '4': { args: [], ms: 2500, cb: [Function: cb] }, '7': { args: [], ms: 85000, cb: [Function] } } +14ms
+  cypress:server:timers queuing timer id 8 after 85000 ms +6ms
+  cypress:server:timers queuing timer id 9 after 1000 ms +2ms
+  cypress:server:timers child received timer id 8 +21ms
+  cypress:server:timers child received timer id 9 +1ms
+  cypress:server:timers queuing timer id 10 after 25 ms +2ms
+  cypress:server:timers child received timer id 10 +2ms
+  cypress:server:timers child sending timer id 10 +28ms
+  cypress:server:timers clearing timer id 10 from queue { '4': { args: [], ms: 2500, cb: [Function: cb] }, '8': { args: [], ms: 85000, cb: [Function] }, '9': { args: [], ms: 1000, cb: [Function: timeoutTimeout] }, '10': { args: [], ms: 25, cb: [Function] } } +31ms
+  cypress:server:timers queuing timer id 11 after 25 ms +1ms
+  cypress:server:timers child received timer id 11 +4ms
+  cypress:server:timers child sending timer id 11 +31ms
+  cypress:server:timers clearing timer id 11 from queue { '4': { args: [], ms: 2500, cb: [Function: cb] }, '8': { args: [], ms: 85000, cb: [Function] }, '9': { args: [], ms: 1000, cb: [Function: timeoutTimeout] }, '11': { args: [], ms: 25, cb: [Function] } } +31ms
+  cypress:server:timers queuing timer id 12 after 25 ms +1ms
+  cypress:server:timers child received timer id 12 +1ms
+  cypress:server:timers child sending timer id 12 +28ms
+  cypress:server:timers clearing timer id 12 from queue { '4': { args: [], ms: 2500, cb: [Function: cb] }, '8': { args: [], ms: 85000, cb: [Function] }, '9': { args: [], ms: 1000, cb: [Function: timeoutTimeout] }, '12': { args: [], ms: 25, cb: [Function] } } +29ms
+  cypress:server:timers queuing timer id 13 after 25 ms +0ms
+  cypress:server:timers child received timer id 13 +2ms
+  cypress:server:timers child sending timer id 13 +30ms
+  cypress:server:timers clearing timer id 13 from queue { '4': { args: [], ms: 2500, cb: [Function: cb] }, '8': { args: [], ms: 85000, cb: [Function] }, '9': { args: [], ms: 1000, cb: [Function: timeoutTimeout] }, '13': { args: [], ms: 25, cb: [Function] } } +31ms
+  cypress:server:timers queuing timer id 14 after 25 ms +1ms
+  cypress:server:timers child received timer id 14 +2ms
+  cypress:server:timers child sending timer id 14 +25ms
+  cypress:server:timers clearing timer id 14 from queue { '4': { args: [], ms: 2500, cb: [Function: cb] }, '8': { args: [], ms: 85000, cb: [Function] }, '9': { args: [], ms: 1000, cb: [Function: timeoutTimeout] }, '14': { args: [], ms: 25, cb: [Function] } } +27ms
+  cypress:server:timers queuing timer id 15 after 25 ms +2ms
+  cypress:server:timers child received timer id 15 +3ms
+  cypress:server:timers child sending timer id 15 +30ms
+  cypress:server:timers clearing timer id 15 from queue { '4': { args: [], ms: 2500, cb: [Function: cb] }, '8': { args: [], ms: 85000, cb: [Function] }, '9': { args: [], ms: 1000, cb: [Function: timeoutTimeout] }, '15': { args: [], ms: 25, cb: [Function] } } +31ms
+  cypress:server:timers queuing timer id 16 after 25 ms +0ms
+  cypress:server:timers child received timer id 16 +2ms
+  cypress:server:timers child sending timer id 16 +25ms
+  cypress:server:timers clearing timer id 16 from queue { '4': { args: [], ms: 2500, cb: [Function: cb] }, '8': { args: [], ms: 85000, cb: [Function] }, '9': { args: [], ms: 1000, cb: [Function: timeoutTimeout] }, '16': { args: [], ms: 25, cb: [Function] } } +27ms
+  cypress:server:timers queuing timer id 17 after 25 ms +1ms
+  cypress:server:timers child received timer id 17 +2ms
+  cypress:server:timers child sending timer id 17 +30ms
+  cypress:server:timers clearing timer id 17 from queue { '4': { args: [], ms: 2500, cb: [Function: cb] }, '8': { args: [], ms: 85000, cb: [Function] }, '9': { args: [], ms: 1000, cb: [Function: timeoutTimeout] }, '17': { args: [], ms: 25, cb: [Function] } } +31ms
+  cypress:server:timers queuing timer id 18 after 25 ms +0ms
+  cypress:server:timers child received timer id 18 +2ms
+  cypress:server:timers child sending timer id 18 +26ms
+  cypress:server:timers clearing timer id 18 from queue { '4': { args: [], ms: 2500, cb: [Function: cb] }, '8': { args: [], ms: 85000, cb: [Function] }, '9': { args: [], ms: 1000, cb: [Function: timeoutTimeout] }, '18': { args: [], ms: 25, cb: [Function] } } +27ms
+  cypress:server:timers queuing timer id 19 after 25 ms +2ms
+  cypress:server:timers child received timer id 19 +2ms
+  cypress:server:timers child sending timer id 19 +28ms
+  cypress:server:timers clearing timer id 19 from queue { '4': { args: [], ms: 2500, cb: [Function: cb] }, '8': { args: [], ms: 85000, cb: [Function] }, '9': { args: [], ms: 1000, cb: [Function: timeoutTimeout] }, '19': { args: [], ms: 25, cb: [Function] } } +29ms
+  cypress:server:timers queuing timer id 20 after 25 ms +1ms
+  cypress:server:timers child received timer id 20 +2ms
+  cypress:server:timers child sending timer id 20 +25ms
+  cypress:server:timers clearing timer id 20 from queue { '4': { args: [], ms: 2500, cb: [Function: cb] }, '8': { args: [], ms: 85000, cb: [Function] }, '9': { args: [], ms: 1000, cb: [Function: timeoutTimeout] }, '20': { args: [], ms: 25, cb: [Function] } } +26ms
+  cypress:server:timers queuing timer id 21 after 25 ms +2ms
+  cypress:server:timers child received timer id 21 +3ms
+  cypress:server:timers child sending timer id 21 +28ms
+  cypress:server:timers clearing timer id 21 from queue { '4': { args: [], ms: 2500, cb: [Function: cb] }, '8': { args: [], ms: 85000, cb: [Function] }, '9': { args: [], ms: 1000, cb: [Function: timeoutTimeout] }, '21': { args: [], ms: 25, cb: [Function] } } +29ms
+  cypress:server:timers queuing timer id 22 after 25 ms +1ms
+  cypress:server:timers child received timer id 22 +2ms
+  cypress:server:timers child sending timer id 22 +28ms
+  cypress:server:timers clearing timer id 22 from queue { '4': { args: [], ms: 2500, cb: [Function: cb] }, '8': { args: [], ms: 85000, cb: [Function] }, '9': { args: [], ms: 1000, cb: [Function: timeoutTimeout] }, '22': { args: [], ms: 25, cb: [Function] } } +29ms
+  cypress:server:timers queuing timer id 23 after 25 ms +39ms
+  cypress:server:timers child received timer id 23 +40ms
+  cypress:server:timers child sending timer id 23 +25ms
+  cypress:server:timers clearing timer id 23 from queue { '4': { args: [], ms: 2500, cb: [Function: cb] }, '8': { args: [], ms: 85000, cb: [Function] }, '9': { args: [], ms: 1000, cb: [Function: timeoutTimeout] }, '23': { args: [], ms: 25, cb: [Function] } } +27ms
+  cypress:server:timers queuing timer id 24 after 25 ms +1ms
+  cypress:server:timers child received timer id 24 +5ms
+  cypress:server:timers child sending timer id 24 +30ms
+  cypress:server:timers clearing timer id 24 from queue { '4': { args: [], ms: 2500, cb: [Function: cb] }, '8': { args: [], ms: 85000, cb: [Function] }, '9': { args: [], ms: 1000, cb: [Function: timeoutTimeout] }, '24': { args: [], ms: 25, cb: [Function] } } +37ms
+  cypress:server:timers queuing timer id 25 after 25 ms +9ms
+  cypress:server:timers child received timer id 25 +18ms
+  cypress:server:timers child sending timer id 25 +28ms
+  cypress:server:timers clearing timer id 25 from queue { '4': { args: [], ms: 2500, cb: [Function: cb] }, '8': { args: [], ms: 85000, cb: [Function] }, '9': { args: [], ms: 1000, cb: [Function: timeoutTimeout] }, '25': { args: [], ms: 25, cb: [Function] } } +33ms
+  cypress:server:timers queuing timer id 26 after 25 ms +1ms
+  cypress:server:timers child received timer id 26 +2ms
+  cypress:server:timers child sending timer id 26 +30ms
+  cypress:server:timers clearing timer id 26 from queue { '4': { args: [], ms: 2500, cb: [Function: cb] }, '8': { args: [], ms: 85000, cb: [Function] }, '9': { args: [], ms: 1000, cb: [Function: timeoutTimeout] }, '26': { args: [], ms: 25, cb: [Function] } } +33ms
+  cypress:server:timers queuing timer id 27 after 25 ms +4ms
+  cypress:server:timers child received timer id 27 +16ms
+  cypress:server:timers child sending timer id 27 +28ms
+  cypress:server:timers clearing timer id 27 from queue { '4': { args: [], ms: 2500, cb: [Function: cb] }, '8': { args: [], ms: 85000, cb: [Function] }, '9': { args: [], ms: 1000, cb: [Function: timeoutTimeout] }, '27': { args: [], ms: 25, cb: [Function] } } +39ms
+  cypress:server:timers queuing timer id 28 after 25 ms +1ms
+  cypress:server:timers child received timer id 28 +4ms
+  cypress:server:timers child sending timer id 28 +26ms
+  cypress:server:timers clearing timer id 28 from queue { '4': { args: [], ms: 2500, cb: [Function: cb] }, '8': { args: [], ms: 85000, cb: [Function] }, '9': { args: [], ms: 1000, cb: [Function: timeoutTimeout] }, '28': { args: [], ms: 25, cb: [Function] } } +28ms
+  cypress:server:timers queuing timer id 29 after 25 ms +1ms
+  cypress:server:timers child received timer id 29 +3ms
+  cypress:server:timers child sending timer id 29 +28ms
+  cypress:server:timers clearing timer id 29 from queue { '4': { args: [], ms: 2500, cb: [Function: cb] }, '8': { args: [], ms: 85000, cb: [Function] }, '9': { args: [], ms: 1000, cb: [Function: timeoutTimeout] }, '29': { args: [], ms: 25, cb: [Function] } } +31ms
+  cypress:server:timers queuing timer id 30 after 25 ms +3ms
+  cypress:server:timers child received timer id 30 +8ms
+  cypress:server:server Getting remote state: { props: { port: '3000', tld: 'localhost', domain: '' }, origin: 'http://localhost:3000', strategy: 'http', visiting: undefined, domainName: 'localhost', fileServer: null } +28ms
+  cypress:server:proxy handling proxied request { url: '/sw.js', proxiedUrl: 'http://localhost:3000/sw.js', cookies: { 'raygun4js-userid': 'c99cbeac-8a43-19da-aef2-58199faf1347', _ga: 'GA1.1.1812113416.1515118214' }, remoteState: { props: { port: '3000', tld: 'localhost', domain: '' }, origin: 'http://localhost:3000', strategy: 'http', visiting: undefined, domainName: 'localhost', fileServer: null } } +1ms
+  cypress:server:timers child sending timer id 30 +28ms
+  cypress:server:timers clearing timer id 30 from queue { '4': { args: [], ms: 2500, cb: [Function: cb] }, '8': { args: [], ms: 85000, cb: [Function] }, '9': { args: [], ms: 1000, cb: [Function: timeoutTimeout] }, '30': { args: [], ms: 25, cb: [Function] } } +10ms
+  cypress:server:timers queuing timer id 31 after 25 ms +1ms
+  cypress:server:timers child received timer id 31 +10ms
+  cypress:server:timers queuing timer id 32 after 30000 ms +3ms
+  cypress:server:timers clearing timer id 32 from queue { '4': { args: [], ms: 2500, cb: [Function: cb] }, '8': { args: [], ms: 85000, cb: [Function] }, '9': { args: [], ms: 1000, cb: [Function: timeoutTimeout] }, '31': { args: [], ms: 25, cb: [Function] }, '32': { args: [], ms: 30000, cb: [Function] } } +5ms
+  cypress:server:timers child received timer id 32 +11ms
+  cypress:server:proxy received request response for http://localhost:3000/sw.js { headers: { 'x-powered-by': 'Express', 'accept-ranges': 'bytes', etag: 'W/"136a5-ANC4SLPB1uvhi4SZUDAsFHGf3iw"', date: 'Wed, 31 Jan 2018 21:40:07 GMT', connection: 'close' } } +22ms
+  cypress:server:timers child sending timer id 31 +20ms
+GET /sw.js 304 53.775 ms - -
+  cypress:server:timers clearing timer id 31 from queue { '4': { args: [], ms: 2500, cb: [Function: cb] }, '8': { args: [], ms: 85000, cb: [Function] }, '9': { args: [], ms: 1000, cb: [Function: timeoutTimeout] }, '31': { args: [], ms: 25, cb: [Function] } } +17ms
+  cypress:server:timers queuing timer id 33 after 25 ms +4ms
+  cypress:server:timers child received timer id 33 +21ms
+  cypress:server:timers child sending timer id 33 +32ms
+  cypress:server:timers clearing timer id 33 from queue { '4': { args: [], ms: 2500, cb: [Function: cb] }, '8': { args: [], ms: 85000, cb: [Function] }, '9': { args: [], ms: 1000, cb: [Function: timeoutTimeout] }, '33': { args: [], ms: 25, cb: [Function] } } +35ms
+  cypress:server:timers queuing timer id 34 after 25 ms +3ms
+  cypress:server:timers child received timer id 34 +7ms
+  cypress:server:timers child sending timer id 34 +30ms
+  cypress:server:timers clearing timer id 34 from queue { '4': { args: [], ms: 2500, cb: [Function: cb] }, '8': { args: [], ms: 85000, cb: [Function] }, '9': { args: [], ms: 1000, cb: [Function: timeoutTimeout] }, '34': { args: [], ms: 25, cb: [Function] } } +33ms
+  cypress:server:timers queuing timer id 35 after 25 ms +1ms
+  cypress:server:timers child received timer id 35 +2ms
+  cypress:server:timers child sending timer id 35 +31ms
+  cypress:server:timers clearing timer id 35 from queue { '4': { args: [], ms: 2500, cb: [Function: cb] }, '8': { args: [], ms: 85000, cb: [Function] }, '9': { args: [], ms: 1000, cb: [Function: timeoutTimeout] }, '35': { args: [], ms: 25, cb: [Function] } } +38ms
+  cypress:server:timers queuing timer id 36 after 25 ms +3ms
+  cypress:server:timers child received timer id 36 +10ms
+  cypress:server:timers child sending timer id 36 +27ms
+  cypress:server:timers clearing timer id 36 from queue { '4': { args: [], ms: 2500, cb: [Function: cb] }, '8': { args: [], ms: 85000, cb: [Function] }, '9': { args: [], ms: 1000, cb: [Function: timeoutTimeout] }, '36': { args: [], ms: 25, cb: [Function] } } +29ms
+  cypress:server:timers queuing timer id 37 after 25 ms +3ms
+  cypress:server:timers child received timer id 37 +7ms
+  cypress:server:timers child sending timer id 37 +31ms
+  cypress:server:timers clearing timer id 37 from queue { '4': { args: [], ms: 2500, cb: [Function: cb] }, '8': { args: [], ms: 85000, cb: [Function] }, '9': { args: [], ms: 1000, cb: [Function: timeoutTimeout] }, '37': { args: [], ms: 25, cb: [Function] } } +36ms
+  cypress:server:timers queuing timer id 38 after 25 ms +4ms
+  cypress:server:timers child received timer id 38 +7ms
+  cypress:server:timers child sending timer id 38 +26ms
+  cypress:server:timers clearing timer id 38 from queue { '4': { args: [], ms: 2500, cb: [Function: cb] }, '8': { args: [], ms: 85000, cb: [Function] }, '9': { args: [], ms: 1000, cb: [Function: timeoutTimeout] }, '38': { args: [], ms: 25, cb: [Function] } } +29ms
+  cypress:server:timers queuing timer id 39 after 25 ms +2ms
+  cypress:server:timers child received timer id 39 +4ms
+  cypress:server:timers child sending timer id 9 +16ms
+  cypress:server:timers clearing timer id 9 from queue { '4': { args: [], ms: 2500, cb: [Function: cb] }, '8': { args: [], ms: 85000, cb: [Function] }, '9': { args: [], ms: 1000, cb: [Function: timeoutTimeout] }, '39': { args: [], ms: 25, cb: [Function] } } +17ms
+  cypress:server:timers child sending timer id 39 +28ms
+  cypress:server:timers clearing timer id 39 from queue { '4': { args: [], ms: 2500, cb: [Function: cb] }, '8': { args: [], ms: 85000, cb: [Function] }, '39': { args: [], ms: 25, cb: [Function] } } +33ms
+  cypress:server:timers child sending timer id 4 +255ms
+  cypress:server:timers clearing timer id 4 from queue { '4': { args: [], ms: 2500, cb: [Function: cb] }, '8': { args: [], ms: 85000, cb: [Function] } } +251ms
+  cypress:server:timers queuing timer id 4 after 2500 ms +4ms
+  cypress:server:timers child received timer id 4 +7ms

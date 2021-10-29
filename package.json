@@ -1,0 +1,16 @@
+{
+  "name": "cypress-practice",
+  "version": "1.0.0",
+  "description": "This is For Cypress Practice",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "test": " "
+  },
+  "author": "Vishnu",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^8.2.0",
+    "cypress-file-upload": "^5.0.8"
+  }
+}
